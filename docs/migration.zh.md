@@ -94,6 +94,12 @@ cd ~/Library/Group\ Containers && \
 
 sing-box 1.9.0 修改了 `domain_suffix` 的行为：如果规则值以 `.` 为前缀则行为不变，否则改为匹配 `(domain|.+\.domain)`。
 
+### `domain_suffix` 行为更新
+
+由于历史原因，sing-box 的 `domain_suffix` 规则匹配字面前缀，而不与其他项目相同。
+
+sing-box 1.9.0 修改了 `domain_suffix` 的行为：如果规则值以 `.` 为前缀则行为不变，否则改为匹配 `(domain|.+\.domain)`。
+
 ### 对 Windows 上 `process_path` 格式的更新
 
 sing-box 的 `process_path` 规则继承自Clash，
