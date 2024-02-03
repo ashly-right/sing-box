@@ -1,7 +1,3 @@
----
-icon: material/new-box
----
-
 # Source Format
 
 !!! quote "Changes in sing-box 1.10.0"
